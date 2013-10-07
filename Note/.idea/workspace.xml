@@ -40,6 +40,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -76,7 +77,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -89,14 +89,34 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="53" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="1241">
+            <state line="70" column="5" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1173">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1198#1975#0" expanded="true" />
-                <element signature="e#1964#1965#0" expanded="true" />
-                <element signature="e#2016#2294#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
+                <element signature="e#1198#1977#0" expanded="true" />
+                <element signature="e#1966#1967#0" expanded="true" />
+                <element signature="e#2018#2296#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="33" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="31" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.44358975" vertical-offset="728" max-vertical-offset="1139">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,12 +124,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="104" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="459">
-              <folding>
-                <element signature="e#379#397#0" expanded="true" />
-                <element signature="e#663#684#0" expanded="true" />
-                <element signature="e#764#783#0" expanded="true" />
-              </folding>
+            <state line="7" column="78" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,10 +133,8 @@
       <file leaf-file-name="CreateOpenHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateOpenHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="21" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="697">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="32" column="21" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="697">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,14 +142,8 @@
       <file leaf-file-name="CreateActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="44" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="918">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#851#1201#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#1240#1434#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-              </folding>
+            <state line="41" column="38" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="918">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,37 +151,19 @@
       <file leaf-file-name="CreateAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="16" selection-start="1001" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1428">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="36" column="16" selection-start="1001" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1428">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EditActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/EditActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="52" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.24444444" vertical-offset="722" max-vertical-offset="1139">
+            <state line="48" column="25" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="1003">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1258#1522#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1562#1752#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-0.0" vertical-offset="34" max-vertical-offset="442">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -188,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/MyNotebook/SimpleCursorAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/add.xml" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/ListNote.java" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/AddNote.java" />
@@ -196,22 +185,23 @@
         <option value="$PROJECT_DIR$/res/layout/row.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/create.xml" />
-        <option value="$PROJECT_DIR$/res/layout/edit.xml" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/CreateOpenHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/CreateAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/MyNotebook/MyActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/EditActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/MyNotebook/CreateActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/editregister.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/MyNotebook/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/edit.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="291" />
+    <option name="y" value="59" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -240,7 +230,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,7 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyNotebook" />
+              <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyNotebook" />
+              <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -283,7 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyNotebook" />
+              <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -301,7 +290,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyNotebook" />
+              <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -319,7 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyNotebook" />
+              <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,6 +318,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +332,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CursorSectionAdapter-master/CursorSectionAdapter-master" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.217.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="123" />
@@ -383,6 +373,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -391,6 +382,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -418,19 +422,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -481,6 +472,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="MyNotebook" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -497,6 +489,7 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -524,33 +517,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="291" y="59" width="1382" height="858" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5581015" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896653" sideWeight="0.6268657" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44189852" sideWeight="0.21303074" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37313432" sideWeight="0.213246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.44948757" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44189852" sideWeight="0.78696924" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32677597" sideWeight="0.44905385" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37313432" sideWeight="0.786754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18081991" sideWeight="0.5581015" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.38726208" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1804949" sideWeight="0.6268657" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32677597" sideWeight="0.38719067" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -570,15 +563,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="51" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1139">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="41" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1632">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1198#1975#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2016#2294#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#1198#1977#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2018#2296#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,11 +598,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="612">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1198#1975#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2016#2294#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#1198#1977#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2018#2296#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,19 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="78" selection-start="261" selection-end="261" vertical-scroll-proportion="-2.5758622" vertical-offset="849" max-vertical-offset="1139">
-          <folding>
-            <element signature="e#711#726#0" expanded="false" />
-            <element signature="e#1291#1305#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/create.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -626,30 +623,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="53" selection-start="691" selection-end="691" vertical-scroll-proportion="0.62413794" vertical-offset="91" max-vertical-offset="833">
           <folding>
-            <element signature="e#475#490#0" expanded="true" />
-            <element signature="e#943#957#0" expanded="true" />
-            <element signature="e#1452#1471#0" expanded="true" />
-            <element signature="e#1669#1684#0" expanded="true" />
+            <element signature="e#475#490#0" expanded="false" />
+            <element signature="e#943#957#0" expanded="false" />
+            <element signature="e#1452#1471#0" expanded="false" />
+            <element signature="e#1669#1684#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="44" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#851#1201#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1240#1434#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="232" selection-end="232" vertical-scroll-proportion="0.26984128" vertical-offset="0" max-vertical-offset="323">
+        <state line="41" column="38" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="918">
           <folding />
         </state>
       </provider>
@@ -666,27 +650,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="104" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="459">
-          <folding>
-            <element signature="e#379#397#0" expanded="true" />
-            <element signature="e#663#684#0" expanded="true" />
-            <element signature="e#764#783#0" expanded="true" />
-          </folding>
+        <state line="7" column="78" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="21" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="697">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/CreateAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="16" selection-start="1001" selection-end="1011" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -695,27 +680,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="53" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="1241">
+        <state line="70" column="5" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1173">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1198#1975#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
-            <element signature="e#2016#2294#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#1198#1977#0" expanded="true" />
+            <element signature="e#1966#1967#0" expanded="true" />
+            <element signature="e#2018#2296#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/MyNotebook/EditActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="52" selection-start="1472" selection-end="1472" vertical-scroll-proportion="0.24444444" vertical-offset="722" max-vertical-offset="1139">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1258#1522#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1562#1752#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-          </folding>
+        <state line="5" column="33" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="31" selection-start="1895" selection-end="1895" vertical-scroll-proportion="0.44358975" vertical-offset="728" max-vertical-offset="1139">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +760,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>actionbarsherlock</last-edited>
+          <last-edited>MyNotebook</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

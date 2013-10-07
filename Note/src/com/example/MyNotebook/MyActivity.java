@@ -34,10 +34,9 @@ public class MyActivity extends Activity {
         cursor = adapter.queryNote();
         SimpleCursorAdapter cursorAdapter = new SimpleCursorAdapter(this,R.layout.row, cursor, from, to);
         noteList.setAdapter(cursorAdapter);
-        noteList.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-
+        noteList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView arg0, View arg1, int arg2,long arg3) {
+            public void onItemClick(AdapterView arg0, View arg1, int arg2, long arg3) {
                 Bundle passdata = new Bundle();
                 Cursor listCursor = (Cursor) arg0.getItemAtPosition(arg2);
                 int nameId = listCursor.getInt(listCursor
@@ -49,6 +48,7 @@ public class MyActivity extends Activity {
                         EditActivity.class);
                 passIntent.putExtras(passdata);
                 startActivity(passIntent);
+
             }
         });
 
@@ -63,5 +63,10 @@ public class MyActivity extends Activity {
         });
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        cursor.requery();
 
+    }
 }
