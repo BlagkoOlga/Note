@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
@@ -26,7 +27,8 @@ public class EditActivity extends SherlockActivity {
         super.onCreate(savedInstanceState);
         setTheme(R.style.Theme_Sherlock);
         setContentView(R.layout.edit);
-        getSupportActionBar().setHomeButtonEnabled(true);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setDisplayHomeAsUpEnabled(true);
         title = (EditText) findViewById(R.id.et_edittitle);
         note = (EditText) findViewById(R.id.et_editnote);
         editSubmit = (Button) findViewById(R.id.btn_update);

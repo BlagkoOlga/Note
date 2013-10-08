@@ -7,14 +7,13 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="12sp"
             android:textStyle="bold"
             android:paddingBottom="7dp"/>
     <TextView
             android:id="@+id/tv_note"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="italic"
             android:textSize="10sp"
             android:paddingBottom="5dp"/>
 </LinearLayout>

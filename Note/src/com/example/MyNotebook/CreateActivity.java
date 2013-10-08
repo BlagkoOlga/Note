@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
@@ -24,7 +26,8 @@ public class CreateActivity extends SherlockActivity {
         setTheme(R.style.Theme_Sherlock);
         setContentView(R.layout.create);
 
-        getSupportActionBar().setHomeButtonEnabled(true);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setDisplayHomeAsUpEnabled(true);
         titleEdit = (EditText) findViewById(R.id.et_title);
         noteEdit = (EditText) findViewById(R.id.et_note);
         adapter = new CreateAdapter(this);
@@ -44,15 +47,14 @@ public class CreateActivity extends SherlockActivity {
                 break;
             case SAVE_ID:
                 String titleValue = titleEdit.getText().toString();
-                if (titleValue.length==0){
-                    Toast.makeText(getApplicationContext(),R.string.error, Toast.LENGTH_SHORT).show;
-                }
                 String noteValue = noteEdit.getText().toString();
-                if (noteValue.length==0){
-                    Toast.makeText(getApplicationContext(),R.string.error, Toast.LENGTH_SHORT).show;
+
+                if (titleValue.length()==0||noteValue.length()==0){
+                    Toast.makeText(getApplicationContext(),R.string.error, Toast.LENGTH_SHORT).show();
+                }else{
+                    long val = adapter.insertData(titleValue, noteValue);
+                    finish();
                 }
-                long val = adapter.insertData(titleValue, noteValue);
-                finish();
                 break;
 
 
