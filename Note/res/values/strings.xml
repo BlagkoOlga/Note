@@ -9,5 +9,6 @@
     <string name="title">Title</string>
     <string name="note">Note</string>
     <string name="reset">Reset</string>
+    <string name="error">Field is required</string>
 
 </resources>

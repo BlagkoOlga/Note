@@ -4,18 +4,21 @@ package com.example.MyNotebook;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuItem;
 
-public class MyActivity extends Activity {
+
+public class MyActivity extends SherlockActivity{
     CreateAdapter adapter;
     CreateOpenHelper helper;
-    SQLiteDatabase db;
+    private static final int ADD_ID = 1;
     ListView noteList;
     Button createBtn;
     Cursor cursor;
@@ -23,10 +26,11 @@ public class MyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+       setTheme(R.style.Theme_Sherlock);
         setContentView(R.layout.main);
 
         noteList = (ListView)findViewById(R.id.lv_note);
-        createBtn = (Button)findViewById(R.id.btn_register);
+
         adapter = new CreateAdapter(this);
 
         String[] from = {helper.TITLE, helper.NOTE};
@@ -41,8 +45,6 @@ public class MyActivity extends Activity {
                 Cursor listCursor = (Cursor) arg0.getItemAtPosition(arg2);
                 int nameId = listCursor.getInt(listCursor
                         .getColumnIndex(helper.KEY_ID));
-                // Toast.makeText(getApplicationContext(),
-                // Integer.toString(nameId), 500).show();
                 passdata.putInt("keyid", nameId);
                 Intent passIntent = new Intent(MyActivity.this,
                         EditActivity.class);
@@ -52,15 +54,29 @@ public class MyActivity extends Activity {
             }
         });
 
-        createBtn.setOnClickListener(new View.OnClickListener(){
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(0,ADD_ID,0, "Edit")
+                .setIcon(android.R.drawable.ic_menu_add)
+                .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+        return true;
+    }
 
-            @Override
-            public void onClick(View v) {
-                Intent registerIntent = new Intent(MyActivity.this,
-                        CreateActivity.class);
-                startActivity(registerIntent);
-            }
-        });
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+            case ADD_ID:
+                Intent intent = new Intent(MyActivity.this,CreateActivity.class);
+                startActivity(intent);
+                break;
+            default:
+
+                break;
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
